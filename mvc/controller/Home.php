@@ -1,7 +1,8 @@
 <?php 
-class Home{
+class Home extends Controller{
     function Show(){
-        echo "Home show";
+     $a =   $this->method();
+     echo $a->getSinhVien();
     }
 
     function SayHi(){
